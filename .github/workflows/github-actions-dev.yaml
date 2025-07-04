@@ -2,12 +2,6 @@ name: Front-dev build & push docker image to ghcr and deploy
 
 on:
   push:
-    branches:
-      - dev
-      - feature/deploy
-  pull_request:
-    branches:
-      - dev
 
 jobs:
   build:
